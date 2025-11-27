@@ -2,18 +2,18 @@
    LIGHT THEME — EDIT THESE 5
    ============================= */
 :root {
-  --bg: #EFDDFD;
+  --bg: #06402B;
   /* page background */
-  --text: #210934;
+  --text: #E28612;
   /* main text */
-  --surface: #F6EAFF;
+  --surface: #06402B;
   /* cards, boxes, list items */
-  --nav: #36065B;
+  --nav: #000000;
   /* navbar (dark bar) */
-  --accent: #7C3AED;
+  --accent: #06402B;
   /* links & primary buttons */
 
-  --hero: #F1E8FF;
+  --hero: #E28612;
   /* jumbotron/hero bg */
 }
 
@@ -23,10 +23,10 @@
 
 /* Auto-derived (you can ignore) */
 :root {
-  --accent-hover: color-mix(in srgb, var(--accent) 85%, black);
-  --on-nav: #FFFFFF;
+  --accent-hover: color-mix(in srgb, var(--accent) 85%, rgb(0, 0, 0));
+  --on-nav: #ffffff;
   /* text on dark navbar */
-  --border: #E6D6FF;
+  --border: #E28612;
   /* soft borders */
 }
 
