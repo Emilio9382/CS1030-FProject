@@ -74,13 +74,13 @@ output-displays breif discription of region and difficult rating
         <button type="button" class="btn btn-primary mt-3" onclick="findRegion()">Search</button>
     </form>
 
-    <p id="output" class="mt-3 fw-bold"></p>
+    <p id="output" class="mt-3 fw-bold"></p> 
 </main>
 
     <script>
-function findRegion() {
-    let region = document.getElementById("regionInput").value.toLowerCase();  
-    let message = "";
+function findRegion() {         //fucntion start -EP
+    let region = document.getElementById("regionInput").value.toLowerCase();  //scans user input -EP
+    let message = ""; //stores final message -EP
 
     if(region === "limgrave") { 
         message = "Limgrave - Starting area with fair difficulty. Recommended for beginners. | Difficulty: 3/10"; 
@@ -128,7 +128,7 @@ function findRegion() {
         message = "Unknown region — try again or check spelling.";
     }
 
-    document.getElementById("output").innerText = message;
+    document.getElementById("output").innerText = message; //displays in empty paragragh -EP
 }
 </script>
 
